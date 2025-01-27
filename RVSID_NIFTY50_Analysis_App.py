@@ -64,7 +64,7 @@ st.title("NIFTY50 Analysis")
 
 # Input Dates
 st.sidebar.header("Select Date Range")
-start_date = st.sidebar.date_input("Start Date", value=date.today() - timedelta(days=150))
+start_date = st.sidebar.date_input("Start Date", value=date.today() - timedelta(days=70))
 end_date = st.sidebar.date_input("End Date", value=date.today())
 
 # Analyze Button
